@@ -1,0 +1,149 @@
+
+/*corpo do site*/
+
+header{
+	margin: 0;
+}
+
+body{
+	background-color: #1C1C1C;
+	margin: 0;
+
+}
+
+article{
+	display: flex;
+	color: #E0FFFF;
+	margin: 40px;
+	border-radius: 42px;
+	background: #9400D3;
+	box-shadow:  5px 5px 5px #3b0054,
+            	 -5px -5px 5px #ed00ff;
+}
+
+aside{
+	color: #E0FFFF;
+	margin: 40px;
+	border-radius: 42px;
+	background: #9400D3;
+	box-shadow:  5px 5px 5px #3b0054,
+            	 -5px -5px 5px #ed00ff;
+}
+
+footer{
+	background: #9400D3;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.titulo{
+	color: #FF00FF;
+	text-align: center;
+	margin: 10px 400px;
+	margin-top: 50px;
+	background: #9400D3;
+	box-shadow:  4px 4px 5px #3b0054,
+            	 -4px -4px 5px #ed00ff;
+    text-transform: uppercase;
+}
+
+.container{
+  	display: flex;
+  	justify-content:space-between ;
+  	border-radius: 0px;
+	background: #9400D3;
+    border-bottom: 1px solid #ed00ff ;
+    border-top: 1px solid #ed00ff ;
+}
+
+
+
+
+/*letras*/
+
+h1{
+	color:#E0FFFF;
+	font-family: Courier New;
+	font-weight: bold;
+}
+h6{
+	color:#E0FFFF;
+	font-size: 13px;
+}
+
+p{
+	padding: 5px 30px;
+	font-family: Courier New;
+}
+
+
+
+
+
+
+
+/* menu */
+
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+
+.menu > ul > li{
+	display: inline-block;
+}
+
+.menu > ul > li > a{
+	display: block;
+	padding: 0px 30px;
+	color: #E0FFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Courier New;
+}
+
+.menu > ul > li:hover >a{
+	text-decoration: underline;
+	background: #9400D3;
+	color:#ed00ff ;
+
+}
+
+
+
+/*imagens*/
+
+.capas{
+	width: 200px;
+	height: 300px;
+	border-radius: 0px;
+	background: linear-gradient(145deg, #8500be, #9e00e2);
+	box-shadow:  15px 15px 5px #3b0054;
+	margin: 40px 15px;
+	border: 2px solid #ed00ff;
+	}
+
+.imagens{
+	width: 700px;
+	height: 350px;
+	border: 3px solid #ed00ff;
+	border-radius: 0px;
+	background: linear-gradient(145deg, #8500be, #9e00e2);
+	box-shadow:  15px 15px 5px #3b0054;
+}
+
+.logo{
+	margin-left: 15px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	padding: 5px;
+	display: flex;
+	justify-content: left;
+	border-radius: 50%;
+	background: linear-gradient(145deg, #8500be, #9e00e2);
+	box-shadow:  2px 2px 15px #3b0054,
+             -2px -2px 5px #ed00ff;
+    border: 1px solid #ed00ff ;
+}
